@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from typing import List, Dict
-from scrapper.utils import clean_price  # Asegúrate de que el archivo utils.py esté en el mismo nivel que este script
+from scrapper.utils import clean_price  
 
 class MercadoLibreScraper:
     HEADERS = {
